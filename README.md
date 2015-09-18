@@ -4,7 +4,7 @@ This repository is a combination of hand gesture detection code and the correspo
 
 The code is not much difficult to understand and add any other features but needs hard work-through and mastering on OpenCV(Open Source Computer Vision Library), which was developed by Intel as a library of programming functions mainly aimed at real-time computer vision. For more information [click here](http://opencv.org/)  
 
-# Install
+## Install
 We need to install either of the following pairs of ros packages to be able to use the ros usb node and openni-camera/kinect.. 
 
 `{ros-indigo-openni-camera, ros-indigo-openni-launch }` - Recommended
@@ -19,7 +19,7 @@ Install the following packages for transporting ros images into opencv matrix im
 
 ` eg. sudo apt-get install ros-indigo-cv-bridge`
 
-# Build
+## Build
 To build gesture_pkg as ros package, perform the following steps at the shell prompt(in the terminal)
 
 `cd ~/catkin_ws/src/`
@@ -33,7 +33,7 @@ To build gesture_pkg as ros package, perform the following steps at the shell pr
 `source ./devel/setup.bash`
 
 
-# Run
+## Run
 In some cases we need to set value for camera parameters by using the following command even after setting it in the launcher file.
 
 `rosparam set usb_cam/pixel_format yuyv`
