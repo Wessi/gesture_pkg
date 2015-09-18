@@ -21,13 +21,16 @@ Install the following packages for transporting ros images into opencv matrix im
 
 # Build
 To build gesture_pkg as ros package, perform the following steps at the shell prompt(in the terminal)
+
 `cd ~/catkin_ws/src/`
 
 `git clone `
 
-``
+`cd cd ../`
 
-``
+`catkin_make`
+
+`source ./devel/setup.bash`
 
 
 # Run
