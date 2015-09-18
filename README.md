@@ -11,6 +11,7 @@ We need to install either of the following pairs of ros packages to be able to u
 
 `{ros-indigo-openni2-camera, ros-indigo-openni2-launch}`
 
+` eg. sudo apt-get install ros-indigo-openni-camera `
 # Running
 
 
