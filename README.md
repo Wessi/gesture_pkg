@@ -46,6 +46,12 @@ Use either of the ros based launch files... no need to start every services sepa
 
 In the case of usb camera... some important published topics are: 
 #### /gesture_channel
+- Type: std_msgs/String
+
+- Publishers: 
+   - /gesture_node (http://wessi-pc:47773/)
+
+- Subscribers: None
 
 #### /rgb/camera_info
 
