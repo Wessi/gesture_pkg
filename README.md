@@ -4,4 +4,13 @@ This repository is a combination of hand gesture detection code and the correspo
 
 The code is not much difficult to understand and add any other features but needs hard work-through and mastering on OpenCV(Open Source Computer Vision Library), which was developed by Intel as a library of programming functions mainly aimed at real-time computer vision. For more information [click here](http://opencv.org/)  
 
+# Installations
+We need to install either of the following pairs of ros packages to be able to use the ros usb node and openni-camera/kinect.. 
+
+`{ros-indigo-openni-camera, ros-indigo-openni-launch }` - Recommended
+`{ros-indigo-openni2-camera, ros-indigo-openni2-launch}`
+
+# Running
+
+
 
