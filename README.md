@@ -45,7 +45,7 @@ Use either of the ros based launch files... no need to start every services sepa
 **`roslaunch gesture_pkg kin_gesture_recognizer.launch`** - for kinect camera
 
 In the case of usb camera... some important published topics are: 
-#### /gesture_channel
+##### /gesture_channel
 - Type: std_msgs/String
 
 - Publishers: 
@@ -53,8 +53,14 @@ In the case of usb camera... some important published topics are:
 
 - Subscribers: None
 
-#### /rgb/camera_info
+##### /rgb/image_raw
+- Type: sensor_msgs/Image
 
-#### /rgb/image_raw
- 
-#### /rgb/image_raw/compressed
+- Publishers: 
+   - /usb_cam_node (http://wessi-pc:46392/)
+
+- Subscribers: 
+   - /gesture_node (http://wessi-pc:47773/)
+
+##### /rgb/camera_info
+##### /rgb/image_raw/compressed
