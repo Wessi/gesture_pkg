@@ -15,9 +15,10 @@ We need to install either of the following pairs of ros packages to be able to u
 
 Install the following packages for transporting ros images into opencv matrix images->cv-bridge
 
-`{ros-indigo-cv-bridge , ros-indigo-usb-cam , ros-indigo-image-transport} 
+`{ros-indigo-cv-bridge , ros-indigo-usb-cam , ros-indigo-image-transport}` 
 
-`` eg. sudo apt-get install ros-indigo-cv-bridge` ros-indigo-cv-bridge`
+`` eg. sudo apt-get install ros-indigo-cv-bridge``
+
 # Running
 
 
