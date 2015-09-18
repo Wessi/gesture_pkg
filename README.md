@@ -17,9 +17,16 @@ Install the following packages for transporting ros images into opencv matrix im
 
 `{ros-indigo-cv-bridge , ros-indigo-usb-cam , ros-indigo-image-transport}` 
 
-`` eg. sudo apt-get install ros-indigo-cv-bridge``
+` eg. sudo apt-get install ros-indigo-cv-bridge`
 
 # Running
+In some cases we need to set value for camera parameters by using the following command even after setting it in the launcher file.
 
+`rosparam set usb_cam/pixel_format yuyv`
 
+Use either of the ros based launch files... no need to start every services separately but just roslaunch the gesture recognizer code using one of the following two terminal commands.
+
+``
+
+``
 
