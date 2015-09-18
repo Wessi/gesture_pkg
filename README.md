@@ -44,3 +44,11 @@ Use either of the ros based launch files... no need to start every services sepa
 
 **`roslaunch gesture_pkg kin_gesture_recognizer.launch`** - for kinect camera
 
+In the case of usb camera... some important published topics are: 
+#### /gesture_channel
+
+#### /rgb/camera_info
+
+#### /rgb/image_raw
+ 
+#### /rgb/image_raw/compressed
