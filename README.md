@@ -28,5 +28,5 @@ Use either of the ros based launch files... no need to start every services sepa
 
 **`roslaunch gesture_pkg cam_gesture_recognizer.launch`**
 
- `*roslaunch gesture_pkg kin_gesture_recognizer.launch* `
+**`roslaunch gesture_pkg kin_gesture_recognizer.launch`**
 
