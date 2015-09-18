@@ -24,7 +24,7 @@ To build gesture_pkg as ros package, perform the following steps at the shell pr
 
 `cd ~/catkin_ws/src/`
 
-`git clone `
+`git clone https://github.com/Wessi/gesture_pkg.git`
 
 `cd cd ../`
 
