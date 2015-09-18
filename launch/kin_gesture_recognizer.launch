@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find gesture_pkg)/launch/kinect.launch"/>
+    <node name="gesture_node" pkg="gesture_pkg" type="GestureDetector.py" output="screen">
+      
+    </node>
+</launch>
