@@ -26,7 +26,7 @@ In some cases we need to set value for camera parameters by using the following 
 
 Use either of the ros based launch files... no need to start every services separately but just roslaunch the gesture recognizer code using one of the following two terminal commands.
 
-** `roslaunch gesture_pkg cam_gesture_recognizer.launch` **
+*`roslaunch gesture_pkg cam_gesture_recognizer.launch`*
 
-** `roslaunch gesture_pkg kin_gesture_recognizer.launch` **
+ ` *roslaunch gesture_pkg kin_gesture_recognizer.launch* `
 
