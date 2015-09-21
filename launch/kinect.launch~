@@ -1,4 +1,0 @@
-<launch>
-    <node name="openni_node" pkg="openni_camera" type="openni_node"/>
-	
-</launch>
