@@ -64,3 +64,6 @@ In the case of usb camera... some important published topics are:
 
 ##### /rgb/camera_info
 ##### /rgb/image_raw/compressed
+
+## Demo
+The simple demo of hand gesture recognition is [available here](https://www.youtube.com/watch?v=msushIC-un0) 
