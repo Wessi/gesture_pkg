@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #from itertools import count
+'''
 
+'''
 __author__ = 'wessi'
 import cv2
 import math
@@ -69,7 +71,7 @@ class GestureRecognizer:
             hull = cv2.convexHull(cnt,returnPoints = False)
             defects = cv2.convexityDefects(cnt,hull)
             count_defects = 0
-            cv2.drawContours(thresh1, contours, -1, (0,255,0), 3)
+
             for i in range(defects.shape[0]):
                 s,e,f,d = defects[i,0]
                 start = tuple(cnt[s][0])
@@ -84,7 +86,7 @@ class GestureRecognizer:
                     cv2.circle(crop_img,far,1,[0,0,255],-1)
                 elif angle >= 180 and angle >= 90:
                     cv2.putText(img, str, (30,100), cv2.FONT_HERSHEY_DUPLEX, 1.6, 1.6)
-                    cv2.line(crop_img,start,end,[0,255,0],2)
+                cv2.line(crop_img, start, end, [0, 0, 0], 2)
             if count_defects == 1:
                 str = "Two fingers up"
             elif count_defects == 2:
@@ -97,21 +99,18 @@ class GestureRecognizer:
                     str= "\"Hi hi...\" Hand Waving..."#str= "Waving..%d" % cx
                     self.CX_INITIAL_VALUE = cx
                 else:
-                    str= "\"Hi hi...\" Not Waving..."
+                    str= "\"Hi hi...\" "
 
             else:
                 str = "Recognizing Hand Gesture..."
             cv2.putText(img, str, (30,100), cv2.FONT_HERSHEY_COMPLEX, 1.2, 1.2)
-            #cv2.imshow('Gesture Recognition Viewer', img)
-            # all_img = np.hstack((drawing, crop_img))
-            # cv2.imshow('Gesture and Contour Window', all_img)
 
             self.publisher.publish(str)
             # self.rate.sleep()
             all_img = np.hstack((drawing, crop_img))
             cv2.imshow('Gesture and Contour Window', all_img)
             cv2.waitKey(3)
-            #print(0115516777)tembirawo eskemizor| yesew girgida eskemiyankuakua
+            #print(0115516777)tembirawo eskemizor| yesew girgida eskemiyankuakua/shua bitn binil min...
         except CvBridgeError, e:
             rospy.logerr(e)
 
