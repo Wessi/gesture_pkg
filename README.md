@@ -7,7 +7,7 @@ The code is not much difficult to understand and add any other features but need
 ## Install
 We need to install either of the following pairs of ros packages to be able to use the ros usb node and openni-camera/kinect.. 
 
-`{ros-indigo-openni-camera, ros-indigo-openni-launch }` - Recommended
+`{ros-indigo-openni-camera, ros-indigo-openni-launch }` -  Recommended
 
 `{ros-indigo-openni2-camera, ros-indigo-openni2-launch}`
 
