@@ -1,8 +1,6 @@
 #!/usr/bin/python
 #from itertools import count
-'''
 
-'''
 __author__ = 'wessi'
 import cv2
 import math
